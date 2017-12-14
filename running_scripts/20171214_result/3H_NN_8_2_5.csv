@@ -1,0 +1,36 @@
+pattern name, pattern_size, packet_size
+3H_NN, 8, 2
+routing_mode, SA_mode, total packet num, total latency, avg latency, worst case latency, avg rcv thruput, avg sent thruput, max rcv thruput,  max sent thruput,  offered send thruput,  max used VC NUMworst case packet info
+0, 0, 32768, 422, 291.604, 295, 0.984615, 0.304038, 0.96, 0.96, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+0, 1, 32768, 422, 291.604, 295, 0.984615, 0.304038, 0.96, 0.96, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+0, 2, 32768, 422, 291.604, 295, 0.984615, 0.304038, 0.96, 0.96, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+1, 0, 32768, 422, 291.522, 295, 0.984615, 0.304038, 0.96, 0.975078, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+1, 1, 32768, 422, 291.522, 295, 0.984615, 0.304038, 0.96, 0.974961, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+1, 2, 32768, 422, 291.521, 295, 0.984615, 0.304038, 0.96, 0.975, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+2, 0, 32768, 420, 291.506, 295, 1, 0.305489, 0.96, 0.98, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+2, 1, 32768, 420, 291.506, 295, 1, 0.305489, 0.96, 0.98, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+2, 2, 32768, 420, 291.506, 295, 1, 0.305489, 0.96, 0.98, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+3, 0, 32768, 422, 291.521, 295, 0.984615, 0.304038, 0.96, 0.974922, 1.14286, 1, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+3, 1, 32768, 422, 291.521, 295, 0.984615, 0.304038, 0.96, 0.975391, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+3, 2, 32768, 422, 291.522, 295, 0.984615, 0.304038, 0.96, 0.974688, 1.14286, 2, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 0
+
+4, 0, 32768, 1608, 402.4, 1476, 0.0972644, 0.0796515, 0.96, 0.805195, 1.14286, 2, worst packet from (1, 5, 6) to (2, 6, 7), packet id is 2
+
+4, 1, 32768, 1605, 402.125, 1474, 0.0974867, 0.0798005, 0.96, 0.802969, 1.14286, 1, worst packet from (4, 3, 0) to (5, 4, 1), packet id is 0
+
+4, 2, 32768, 1609, 403.216, 1474, 0.0971906, 0.079602, 0.96, 0.80207, 1.14286, 2, worst packet from (6, 5, 0) to (7, 6, 1), packet id is 0
+
+best, best,  , 420, 291.506, 295, 1, 0.305489, 0.96, 0.98, 1.14286, 1,  
+avg, avg,  , 658.667, 313.747, 530.933, 0.810232, 0.259458, 0.96, 0.938685, 1.14286, 1.53333,  
+worst, worst,  , 1609, 403.216, 1476, 0.0971906, 0.079602, 0.96, 0.80207, 1.14286, 2,  

@@ -1,0 +1,36 @@
+pattern name, pattern_size, packet_size
+CUBE_NN, 8, 8
+routing_mode, SA_mode, total packet num, total latency, avg latency, worst case latency, avg rcv thruput, avg sent thruput, max rcv thruput,  max sent thruput,  offered send thruput,  max used VC NUMworst case packet info
+0, 0, 106496, 1537, 220.431, 521, 1.15877, 1.08333, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+0, 1, 106496, 1537, 220.298, 380, 1.15877, 1.08333, 1.92, 2.4, 2.52632, 4, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 12
+
+0, 2, 106496, 1537, 220.431, 521, 1.15877, 1.08333, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+1, 0, 106496, 1542, 218.391, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+1, 1, 106496, 1542, 218.31, 380, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 4, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 12
+
+1, 2, 106496, 1542, 218.376, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+2, 0, 106496, 1542, 219.998, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+2, 1, 106496, 1542, 219.865, 380, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 4, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 12
+
+2, 2, 106496, 1542, 219.998, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+3, 0, 106496, 1542, 218.951, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+3, 1, 106496, 1542, 218.756, 380, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 4, worst packet from (0, 0, 0) to (1, 1, 7), packet id is 12
+
+3, 2, 106496, 1542, 218.985, 521, 1.15475, 1.07982, 1.92, 2.4, 2.52632, 6, worst packet from (0, 0, 0) to (0, 1, 7), packet id is 7
+
+4, 0, 106496, 2716, 282.144, 1500, 0.636329, 0.612891, 1.92, 2.39875, 2.52632, 6, worst packet from (6, 4, 6) to (7, 5, 7), packet id is 50
+
+4, 1, 106496, 2716, 281.695, 1506, 0.636329, 0.612891, 1.92, 2.39844, 2.52632, 6, worst packet from (5, 5, 2) to (6, 6, 3), packet id is 49
+
+4, 2, 106496, 2718, 281.321, 1510, 0.635843, 0.61244, 1.92, 2.39844, 2.52632, 6, worst packet from (0, 3, 1) to (1, 4, 2), packet id is 51
+
+best, best,  , 1537, 218.31, 380, 1.15877, 1.08333, 1.92, 2.4, 2.52632, 4,  
+avg, avg,  , 1775.93, 231.863, 680.267, 1.05184, 0.987106, 1.92, 2.39971, 2.52632, 5.46667,  
+worst, worst,  , 2718, 282.144, 1510, 0.635843, 0.61244, 1.92, 2.39844, 2.52632, 6,  

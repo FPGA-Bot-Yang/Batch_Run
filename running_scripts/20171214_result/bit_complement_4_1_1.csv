@@ -1,0 +1,36 @@
+pattern name, pattern_size, packet_size
+bit_complement, 4, 1
+routing_mode, SA_mode, total packet num, total latency, avg latency, worst case latency, avg rcv thruput, avg sent thruput, max rcv thruput,  max sent thruput,  offered send thruput,  max used VC NUMworst case packet info
+0, 0, 2048, 888, 585.004, 879, 0.00670017, 0.00450958, 0.03, 0.015, 0.5, 1, worst packet from (2, 1, 1) to (5, 6, 6), packet id is 0
+
+0, 1, 2048, 888, 585.005, 879, 0.00670017, 0.00450958, 0.03, 0.015, 0.5, 1, worst packet from (2, 1, 1) to (5, 6, 6), packet id is 0
+
+0, 2, 2048, 888, 585.004, 879, 0.00670017, 0.00450958, 0.03, 0.015, 0.5, 1, worst packet from (2, 1, 1) to (5, 6, 6), packet id is 0
+
+1, 0, 2048, 889, 585.34, 883, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (6, 2, 5) to (1, 5, 2), packet id is 1
+
+1, 1, 2048, 889, 585.309, 881, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 4, worst packet from (6, 6, 6) to (1, 1, 1), packet id is 2
+
+1, 2, 2048, 889, 585.365, 882, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (5, 6, 2) to (2, 1, 5), packet id is 2
+
+2, 0, 2048, 889, 585.113, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (6, 2, 2) to (1, 5, 5), packet id is 2
+
+2, 1, 2048, 889, 585.09, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (2, 1, 2) to (5, 6, 5), packet id is 0
+
+2, 2, 2048, 889, 585.113, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (2, 5, 2) to (5, 2, 5), packet id is 0
+
+3, 0, 2048, 889, 585.093, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (6, 2, 2) to (1, 5, 5), packet id is 0
+
+3, 1, 2048, 889, 585.104, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 2, worst packet from (2, 2, 2) to (5, 5, 5), packet id is 3
+
+3, 2, 2048, 889, 585.114, 880, 0.00668896, 0.0045045, 0.03, 0.015, 0.5, 3, worst packet from (6, 5, 2) to (1, 2, 5), packet id is 1
+
+4, 0, 2048, 1862, 738.643, 1859, 0.00254615, 0.00214938, 0.03, 0.01, 0.5, 2, worst packet from (5, 2, 7) to (2, 5, 0), packet id is 1
+
+4, 1, 2048, 1869, 741.994, 1860, 0.00253485, 0.00214133, 0.03, 0.0105273, 0.5, 2, worst packet from (1, 2, 7) to (6, 5, 0), packet id is 3
+
+4, 2, 2048, 1865, 733.388, 1860, 0.0025413, 0.00214592, 0.03, 0.0106836, 0.5, 2, worst packet from (1, 6, 7) to (6, 1, 0), packet id is 1
+
+best, best,  , 888, 585.004, 879, 0.00670017, 0.00450958, 0.03, 0.015, 0.5, 1,  
+avg, avg,  , 1084.07, 615.712, 1076.13, 0.00586156, 0.00403373, 0.03, 0.0140807, 0.5, 2,  
+worst, worst,  , 1869, 741.994, 1860, 0.00253485, 0.00214133, 0.03, 0.01, 0.5, 4,  
